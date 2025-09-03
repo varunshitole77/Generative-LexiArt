@@ -1,0 +1,27 @@
+{
+  "entries": {
+    "d36dfdf36752eb88c67bb296b10dee73": {
+      "prompt": "magical forest, high quality, detailed, masterpiece, fantasy art, magical atmosphere, ethereal lighting",
+      "model": "auto (Recommended - HF picks best model)",
+      "parameters": {
+        "width": 512,
+        "height": 512,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5,
+        "negative_prompt": "blurry, low quality, pixelated, distorted, ugly, deformed, bad anatomy, extra limbs, watermark, text"
+      },
+      "image_path": "static/generated_images\\cached_20250901_225509_d36dfdf3.png",
+      "generation_time": 18.313144207000732,
+      "cached_at": "2025-09-01T22:55:09.010553",
+      "last_accessed": "2025-09-01T22:55:09.010553",
+      "access_count": 0,
+      "file_size": 1854285
+    }
+  },
+  "metadata": {
+    "created": "2025-09-01T22:54:03.838690",
+    "last_cleared": "2025-09-01T22:54:03.838944",
+    "last_updated": "2025-09-01T22:55:09.942977",
+    "total_entries": 1
+  }
+}
