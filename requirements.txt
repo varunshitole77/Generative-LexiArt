@@ -13,10 +13,12 @@ torch>=2.0.0
 torchvision>=0.15.0
 
 # AI/ML Libraries (if needed for local generation)
-# transformers>=4.30.0
-# diffusers>=0.21.0
-# accelerate>=0.20.0
+transformers>=4.30.0
+iffusers>=0.21.0
+accelerate>=0.20.0
 
-# LangChain (if needed for prompt processing)
-# langchain>=0.0.300
-# langchain-community>=0.0.30
+# LangChain (for prompt processing) - Updated versions
+langchain>=0.1.0
+langchain-community>=0.0.38
+langchain-core>=0.1.0
+
