@@ -8,7 +8,7 @@ requests>=2.28.0
 Pillow>=9.0.0
 
 # PyTorch CPU (has pre-built wheels)
---index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch>=2.0.0
 torchvision>=0.15.0
 
@@ -19,5 +19,4 @@ torchvision>=0.15.0
 
 # LangChain (if needed for prompt processing)
 # langchain>=0.0.300
-
 # langchain-community>=0.0.30
