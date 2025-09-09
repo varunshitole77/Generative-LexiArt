@@ -1,8 +1,3 @@
-"""
-Fixed Generation Pipeline for Generative LexiArt
-Removed config import - uses direct configuration
-"""
-
 import time
 import os
 from typing import Optional, Dict, Any, Tuple, List
