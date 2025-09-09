@@ -234,8 +234,8 @@ class FreemiumUI:
             if st.button("❓ Need Help?", use_container_width=True, key="need_help_btn"):
                 st.info("Visit: https://huggingface.co/settings/tokens")
     
-    def show_premium_status(self):
-        """Show premium user status"""
+    def show_premium_status(self, context="main"):
+        """Show premium user status with context-specific keys"""
         if self.session_manager.is_premium_user():
             st.markdown("""
             <div style="
@@ -264,14 +264,14 @@ class FreemiumUI:
                 col1, col2 = st.columns(2)
                 
                 with col1:
-                    # FIXED: Added unique key
-                    if st.button("🔄 Change API Key", use_container_width=True, key="change_api_key_btn"):
+                    # FIXED: Context-specific unique key
+                    if st.button("🔄 Change API Key", use_container_width=True, key=f"change_api_key_btn_{context}"):
                         st.session_state.show_premium_setup = True
                         st.rerun()
                 
                 with col2:
-                    # Option to switch back to free mode - FIXED: Added unique key
-                    if st.button("⬇️ Switch to Free Mode", use_container_width=True, key="switch_to_free_btn"):
+                    # Option to switch back to free mode - FIXED: Context-specific unique key
+                    if st.button("⬇️ Switch to Free Mode", use_container_width=True, key=f"switch_to_free_btn_{context}"):
                         if st.session_state.get('confirm_switch_to_free'):
                             # Actually switch
                             st.session_state.api_mode = 'free'
@@ -290,8 +290,8 @@ class FreemiumUI:
                     st.warning("⚠️ Are you sure? You'll lose access to premium features.")
                     confirm_col1, confirm_col2 = st.columns(2)
                     with confirm_col1:
-                        # FIXED: Added unique key
-                        if st.button("✅ Yes, Switch to Free", type="primary", key="confirm_switch_yes"):
+                        # FIXED: Context-specific unique key
+                        if st.button("✅ Yes, Switch to Free", type="primary", key=f"confirm_switch_yes_{context}"):
                             st.session_state.api_mode = 'free'
                             st.session_state.huggingface_api_key = ''
                             st.session_state.confirm_switch_to_free = False
@@ -299,8 +299,8 @@ class FreemiumUI:
                             st.success("Switched back to free mode!")
                             st.rerun()
                     with confirm_col2:
-                        # FIXED: Added unique key
-                        if st.button("❌ Keep Premium", key="confirm_switch_no"):
+                        # FIXED: Context-specific unique key
+                        if st.button("❌ Keep Premium", key=f"confirm_switch_no_{context}"):
                             st.session_state.confirm_switch_to_free = False
                             st.rerun()
                 
