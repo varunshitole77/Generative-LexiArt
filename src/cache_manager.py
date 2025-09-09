@@ -1,8 +1,3 @@
-"""
-Cache Manager for Generative LexiArt
-Implements intelligent caching system to achieve 60% performance improvement
-"""
-
 import os
 import json
 import hashlib
