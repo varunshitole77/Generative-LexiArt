@@ -1,8 +1,3 @@
-"""
-Utility functions for Generative LexiArt
-Handles file operations, image processing, and helper functions
-"""
-
 import os
 import hashlib
 import json
