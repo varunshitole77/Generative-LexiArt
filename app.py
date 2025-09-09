@@ -1,8 +1,3 @@
-"""
-Fixed Generative LexiArt Application
-Always shows sidebar even when upgrade prompt is displayed
-"""
-
 import streamlit as st
 import sys
 import os
