@@ -1,9 +1,3 @@
-"""
-Fixed Image Generator for Generative LexiArt
-Removed config import - uses direct configuration
-Single Stability AI model only
-"""
-
 import requests
 import time
 import os
