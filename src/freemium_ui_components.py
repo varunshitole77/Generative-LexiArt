@@ -195,26 +195,28 @@ class FreemiumUI:
         # API Key input
         self.show_api_key_input()
         
-        # Close button
-        if st.button("❌ Close Premium Setup", use_container_width=True):
+        # Close button - FIXED: Added unique key
+        if st.button("❌ Close Premium Setup", use_container_width=True, key="close_premium_setup"):
             st.session_state.show_premium_setup = False
             st.rerun()
     
     def show_api_key_input(self):
         """Show API key input interface"""
-        st.subheader("🔐 Enter Your HuggingFace API Key")
+        st.subheader("🔑 Enter Your HuggingFace API Key")
         
         api_key_input = st.text_input(
             "API Key",
             type="password",
             placeholder="hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-            help="Paste your HuggingFace API key to unlock premium AI model"
+            help="Paste your HuggingFace API key to unlock premium AI model",
+            key="api_key_input_field"  # FIXED: Added unique key
         )
         
         col1, col2 = st.columns([2, 1])
         
         with col1:
-            if st.button("✅ Unlock Premium Access", type="primary", disabled=not api_key_input, use_container_width=True):
+            # FIXED: Added unique key
+            if st.button("✅ Unlock Premium Access", type="primary", disabled=not api_key_input, use_container_width=True, key="unlock_premium_btn"):
                 if api_key_input:
                     if self.session_manager.set_premium_mode(api_key_input):
                         st.success("🎉 Premium AI model activated! Unlimited generations unlocked!")
@@ -228,7 +230,8 @@ class FreemiumUI:
                     st.warning("Please enter your API key")
         
         with col2:
-            if st.button("❓ Need Help?", use_container_width=True):
+            # FIXED: Added unique key
+            if st.button("❓ Need Help?", use_container_width=True, key="need_help_btn"):
                 st.info("Visit: https://huggingface.co/settings/tokens")
     
     def show_premium_status(self):
@@ -261,13 +264,14 @@ class FreemiumUI:
                 col1, col2 = st.columns(2)
                 
                 with col1:
-                    if st.button("🔄 Change API Key", use_container_width=True):
+                    # FIXED: Added unique key
+                    if st.button("🔄 Change API Key", use_container_width=True, key="change_api_key_btn"):
                         st.session_state.show_premium_setup = True
                         st.rerun()
                 
                 with col2:
-                    # Option to switch back to free mode
-                    if st.button("⬇️ Switch to Free Mode", use_container_width=True):
+                    # Option to switch back to free mode - FIXED: Added unique key
+                    if st.button("⬇️ Switch to Free Mode", use_container_width=True, key="switch_to_free_btn"):
                         if st.session_state.get('confirm_switch_to_free'):
                             # Actually switch
                             st.session_state.api_mode = 'free'
@@ -286,7 +290,8 @@ class FreemiumUI:
                     st.warning("⚠️ Are you sure? You'll lose access to premium features.")
                     confirm_col1, confirm_col2 = st.columns(2)
                     with confirm_col1:
-                        if st.button("✅ Yes, Switch to Free", type="primary"):
+                        # FIXED: Added unique key
+                        if st.button("✅ Yes, Switch to Free", type="primary", key="confirm_switch_yes"):
                             st.session_state.api_mode = 'free'
                             st.session_state.huggingface_api_key = ''
                             st.session_state.confirm_switch_to_free = False
@@ -294,14 +299,15 @@ class FreemiumUI:
                             st.success("Switched back to free mode!")
                             st.rerun()
                     with confirm_col2:
-                        if st.button("❌ Keep Premium"):
+                        # FIXED: Added unique key
+                        if st.button("❌ Keep Premium", key="confirm_switch_no"):
                             st.session_state.confirm_switch_to_free = False
                             st.rerun()
                 
                 # Show current key info
                 if st.session_state.huggingface_api_key:
                     masked_key = st.session_state.huggingface_api_key[:8] + "..." + st.session_state.huggingface_api_key[-4:]
-                    st.info(f"🔐 Current API Key: {masked_key}")
+                    st.info(f"🔑 Current API Key: {masked_key}")
     
     def show_model_selector(self, available_models):
         """Hidden model selector - always returns auto"""
@@ -362,8 +368,8 @@ class FreemiumUI:
                 - 🤖 **Latest AI** technology
                 """)
                 
-                # THE ONLY premium setup button
-                if st.button("🔐 Setup Premium Access", type="primary", use_container_width=True):
+                # THE ONLY premium setup button - FIXED: Added unique key
+                if st.button("🔑 Setup Premium Access", type="primary", use_container_width=True, key="sidebar_premium_setup"):
                     st.session_state.show_premium_setup = True
                     st.rerun()
                 
