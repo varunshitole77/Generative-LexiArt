@@ -1,8 +1,3 @@
-"""
-Local Stable Diffusion Generator for Generative LexiArt
-Provides completely free image generation without API limitations
-"""
-
 import torch
 from PIL import Image
 import streamlit as st
