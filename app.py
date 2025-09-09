@@ -1,3 +1,8 @@
+"""
+Fixed Generative LexiArt Application
+Always shows sidebar even when upgrade prompt is displayed
+"""
+
 import streamlit as st
 import sys
 import os
@@ -515,8 +520,8 @@ class AIImageStudio:
             </div>
             """, unsafe_allow_html=True)
             
-            # BIG prominent button
-            if st.button("🔑 Setup Premium Access", type="primary", use_container_width=True):
+            # BIG prominent button - FIXED: Unique key for sidebar
+            if st.button("🔑 Setup Premium Access", type="primary", use_container_width=True, key="sidebar_main_premium_btn"):
                 st.session_state.show_premium_setup = True
                 st.rerun()
             
@@ -532,8 +537,8 @@ class AIImageStudio:
             st.markdown("---")
             self.freemium_ui.show_free_trial_status()
         else:
-            # Show premium status
-            self.freemium_ui.show_premium_status()
+            # Show premium status with sidebar context - FIXED: Added context
+            self.freemium_ui.show_premium_status(context="sidebar")
         
         # Usage statistics
         st.markdown("---")
@@ -572,8 +577,8 @@ class AIImageStudio:
                 st.metric("Time Saved", f"{cache_stats.get('total_generation_time_saved', 0)}s")
                 st.metric("Cache Size", f"{cache_stats.get('total_size_mb', 0)} MB")
         
-        # Debug info (optional - can be removed)
-        if st.button("🔧 Debug Session", help="Show session debug info"):
+        # Debug info (optional - can be removed) - FIXED: Unique key
+        if st.button("🔧 Debug Session", help="Show session debug info", key="debug_session_sidebar"):
             debug_info = self.session_manager.debug_session_info()
             st.json(debug_info)
 
