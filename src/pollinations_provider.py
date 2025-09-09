@@ -1,8 +1,3 @@
-"""
-FIXED Pollinations Provider 
-Forces 1024x1024 generation and validates the result
-"""
-
 import requests
 import time
 from typing import Optional, Dict, Any
