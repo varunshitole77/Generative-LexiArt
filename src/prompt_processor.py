@@ -1,8 +1,3 @@
-"""
-Integrated Prompt Processor for Generative LexiArt
-All enhancement functionality built directly into the processor class
-"""
-
 from typing import Dict, Any, List, Optional
 import re
 import streamlit as st
