@@ -1,8 +1,3 @@
-"""
-Complete Generative LexiArt Application
-AI Image Generation with visit tracking, freemium features, and premium toggle
-"""
-
 import streamlit as st
 import sys
 import os
@@ -90,6 +85,20 @@ st.markdown("""
     margin: 10px 0;
     border-left: 4px solid #2196f3;
 }
+
+.upgrade-prompt {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+
+/* Ensure sidebar is always visible */
+.stColumn > div {
+    min-height: 100px;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -168,6 +177,7 @@ def create_device_download(image, device_type, prompt_data):
 class AIImageStudio:
     """
     Main Generative LexiArt application with freemium integration
+    FIXED: Always shows sidebar, even with upgrade prompts
     """
     
     def __init__(self):
@@ -192,30 +202,35 @@ class AIImageStudio:
         self.cache_manager = CacheManager()
         
     def run(self):
-        """Main application runner with premium toggle support"""
+        """Main application runner - FIXED: Always shows sidebar"""
         self._show_header()
         
-        # Check if user wants to see premium setup (anytime access)
-        if st.session_state.get('show_premium_setup', False):
-            self._show_premium_setup_interface()
-            return
-        
-        # Check if user needs to see upgrade prompt (when limit reached)
-        if self.freemium_ui.should_show_upgrade_prompt() and not st.session_state.get('show_premium_setup', False):
-            self._show_upgrade_flow()
-            return
-        
-        # Main app layout
+        # FIXED: Always show the main layout with sidebar
         main_col, sidebar_col = st.columns([2, 1])
         
         with main_col:
-            self._show_generation_interface()
+            self._show_main_content()
         
         with sidebar_col:
             self._show_sidebar()
     
+    def _show_main_content(self):
+        """Show main content area based on current state"""
+        # Check if user wants to see premium setup (takes priority)
+        if st.session_state.get('show_premium_setup', False):
+            self._show_premium_setup_interface()
+            return
+        
+        # Check if user needs to see upgrade prompt
+        if self.freemium_ui.should_show_upgrade_prompt():
+            self._show_upgrade_flow()
+            return
+        
+        # Default: Show generation interface
+        self._show_generation_interface()
+    
     def _show_header(self):
-        """Show application header with visit counter - SINGLE HEADING ONLY"""
+        """Show application header with visit counter"""
         st.markdown(f"""
         <div class="main-header">
             <h1 style="margin: 0; color: white;">Generative LexiArt</h1>
@@ -227,12 +242,57 @@ class AIImageStudio:
         """, unsafe_allow_html=True)
     
     def _show_premium_setup_interface(self):
-        """Show the premium setup interface (accessible anytime)"""
+        """Show the premium setup interface"""
         self.freemium_ui.show_premium_setup_interface()
     
     def _show_upgrade_flow(self):
-        """Show upgrade prompt when limit is reached"""
-        self.freemium_ui.show_upgrade_prompt()
+        """Show upgrade prompt in main content area"""
+        # FIXED: Show upgrade prompt without hiding sidebar
+        st.markdown("""
+        <div class="upgrade-prompt">
+            <h2 style="margin: 0 0 15px 0; color: white;">🎯 Free Trial Complete!</h2>
+            <p style="margin: 0; font-size: 18px; color: white;">You've used all 5 free generations!</p>
+        </div>
+        """, unsafe_allow_html=True)
+        
+        st.markdown("""
+        **🚀 Ready to unlock unlimited premium AI generation?**
+        
+        **Premium Features:**
+        - ✨ **Unlimited** image generation
+        - 🎨 **Professional quality** AI model
+        - ⚡ **Faster** processing
+        - 🎯 **Advanced** parameters
+        - 🔥 **Higher resolution** support
+        
+        **How to upgrade:**
+        1. 👉 **Look at the sidebar** (right side of screen)
+        2. 🔍 Find the **"🌟 Premium Access"** section  
+        3. 📝 Click **"🔑 Setup Premium Access"**
+        4. 🆓 Get your **free** HuggingFace API key
+        5. 🎉 Enjoy **unlimited** generations!
+        """)
+        
+        # Add prominent button to draw attention to sidebar
+        col1, col2, col3 = st.columns([1, 2, 1])
+        with col2:
+            if st.button("👉 Show Me How to Upgrade!", type="primary", use_container_width=True):
+                st.session_state.show_premium_setup = True
+                st.rerun()
+        
+        # Show some motivational content
+        st.markdown("""
+        ---
+        **💡 Pro Tip:** Premium access is completely free! You just need a HuggingFace account 
+        (also free) to get unlimited access to professional AI models.
+        
+        **🎨 What you can create with premium:**
+        - Professional artwork and illustrations
+        - High-quality wallpapers and backgrounds  
+        - Creative designs for projects
+        - Stunning digital art
+        - And much more!
+        """)
     
     def _show_generation_interface(self):
         """Show the main image generation interface"""
@@ -266,7 +326,7 @@ class AIImageStudio:
                 help="How much to enhance your prompt automatically"
             )
         
-        # FIXED: Always generate at 1024x1024 with basic quality options
+        # Advanced options
         with st.expander("⚙️ Advanced Options", expanded=False):
             st.markdown('<div class="generation-info">', unsafe_allow_html=True)
             st.info("📐 Generation Resolution: 1024×1024 (High Quality)")
@@ -291,7 +351,7 @@ class AIImageStudio:
             if not prompt.strip():
                 button_text = "Enter a prompt first"
             elif not can_generate:
-                button_text = "🔒 Upgrade for More Images"
+                button_text = "🔒 Check Sidebar to Upgrade"
             else:
                 button_text = "🎨 Generate Image"
             
@@ -311,7 +371,6 @@ class AIImageStudio:
         
         # Handle image generation
         if generate_button and prompt.strip():
-            # FIXED: Always use 1024x1024 resolution
             self._generate_image(prompt, selected_model, {
                 'width': 1024,
                 'height': 1024,
@@ -435,16 +494,50 @@ class AIImageStudio:
         st.markdown('</div>', unsafe_allow_html=True)
     
     def _show_sidebar(self):
-        """Show sidebar with status, features, and help"""
-        # Usage status for free users
+        """FIXED: Always show sidebar with prominent upgrade option"""
+        
+        # ALWAYS show premium access first and prominently
+        st.markdown("### 🌟 Upgrade to Premium")
+        
         if not self.session_manager.is_premium_user():
+            # Make the upgrade option very visible
+            st.markdown("""
+            <div style="
+                background: linear-gradient(45deg, #28a745, #20c997);
+                padding: 15px;
+                border-radius: 10px;
+                text-align: center;
+                margin-bottom: 20px;
+            ">
+                <p style="color: white; margin: 0; font-weight: bold;">
+                    🚀 Get Unlimited Access!
+                </p>
+            </div>
+            """, unsafe_allow_html=True)
+            
+            # BIG prominent button
+            if st.button("🔑 Setup Premium Access", type="primary", use_container_width=True):
+                st.session_state.show_premium_setup = True
+                st.rerun()
+            
+            st.markdown("""
+            **✨ Premium includes:**
+            - ♾️ Unlimited generations  
+            - 🎨 Professional AI model
+            - ⚡ Faster processing
+            - 🆓 Completely FREE!
+            """)
+            
+            # Show current usage status
+            st.markdown("---")
             self.freemium_ui.show_free_trial_status()
+        else:
+            # Show premium status
+            self.freemium_ui.show_premium_status()
         
         # Usage statistics
+        st.markdown("---")
         self.freemium_ui.show_usage_stats()
-        
-        # Always show premium access option
-        self.freemium_ui.show_sidebar_premium_access()
         
         # Help and tips
         with st.expander("💡 Pro Tips", expanded=False):
