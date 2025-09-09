@@ -1,0 +1,663 @@
+{
+  "entries": {
+    "a3b1ae7db23fefae73720fa79f9e2d69": {
+      "prompt": "darth vader, high quality, detailed, masterpiece, digital art, concept art, trending on artstation",
+      "model": "auto (Recommended - HF picks best model)",
+      "parameters": {
+        "width": 512,
+        "height": 512,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5,
+        "negative_prompt": "blurry, low quality, pixelated, distorted, ugly, deformed, bad anatomy, extra limbs, watermark, text"
+      },
+      "image_path": "static/generated_images\\cached_20250907_122918_a3b1ae7d.png",
+      "generation_time": 2.8813793659210205,
+      "cached_at": "2025-09-07T12:29:18.018218",
+      "last_accessed": "2025-09-07T12:29:18.018218",
+      "access_count": 0,
+      "file_size": 312344
+    },
+    "e64629f9959fca8ab05be22e405279e4": {
+      "prompt": "darth vader, high quality, detailed, masterpiece, digital art, concept art, trending on artstation",
+      "model": "dreamlike-art/dreamlike-diffusion-1.0",
+      "parameters": {
+        "width": 512,
+        "height": 512,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5,
+        "negative_prompt": "blurry, low quality, pixelated, distorted, ugly, deformed, bad anatomy, extra limbs, watermark, text"
+      },
+      "image_path": "static/generated_images\\cached_20250907_122933_e64629f9.png",
+      "generation_time": 2.9510087966918945,
+      "cached_at": "2025-09-07T12:29:33.709297",
+      "last_accessed": "2025-09-07T12:29:33.709297",
+      "access_count": 0,
+      "file_size": 312344
+    },
+    "d8c4f038670264fb4565d805ce0380d3": {
+      "prompt": "darth vader, high quality, detailed, masterpiece, digital art, concept art, trending on artstation",
+      "model": "stabilityai/stable-diffusion-2-1",
+      "parameters": {
+        "width": 512,
+        "height": 512,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5,
+        "negative_prompt": "blurry, low quality, pixelated, distorted, ugly, deformed, bad anatomy, extra limbs, watermark, text"
+      },
+      "image_path": "static/generated_images\\cached_20250907_123038_d8c4f038.png",
+      "generation_time": 3.060512065887451,
+      "cached_at": "2025-09-07T12:30:38.468209",
+      "last_accessed": "2025-09-07T13:14:14.650020",
+      "access_count": 1,
+      "file_size": 312344
+    },
+    "b07a30d7608cdac3f2e1a47f49b4edb4": {
+      "prompt": "bmw m8, high quality, detailed, masterpiece, digital art, concept art, trending on artstation",
+      "model": "CompVis/stable-diffusion-v1-4",
+      "parameters": {
+        "width": 512,
+        "height": 512,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5,
+        "negative_prompt": "blurry, low quality, pixelated, distorted, ugly, deformed, bad anatomy, extra limbs, watermark, text"
+      },
+      "image_path": "static/generated_images\\cached_20250907_123109_b07a30d7.png",
+      "generation_time": 8.856673002243042,
+      "cached_at": "2025-09-07T12:31:09.492723",
+      "last_accessed": "2025-09-07T12:31:09.492723",
+      "access_count": 0,
+      "file_size": 361354
+    },
+    "e50ea36d4b40e2a2adb9721c9c3dcb52": {
+      "prompt": "magical forest, high quality, detailed, masterpiece, fantasy art, magical atmosphere, ethereal lighting",
+      "model": "CompVis/stable-diffusion-v1-4",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5,
+        "negative_prompt": "blurry, low quality, pixelated, distorted, ugly, deformed, bad anatomy, extra limbs, watermark, text"
+      },
+      "image_path": "static/generated_images\\cached_20250907_123144_e50ea36d.png",
+      "generation_time": 3.285367965698242,
+      "cached_at": "2025-09-07T12:31:44.955909",
+      "last_accessed": "2025-09-07T12:31:44.955909",
+      "access_count": 0,
+      "file_size": 2111103
+    },
+    "2e1e8d88f2481e13d2d6f298b1838a4d": {
+      "prompt": "a magical forest with glowing mushrooms, high quality, detailed, masterpiece, fantasy art, magical atmosphere, ethereal lighting",
+      "model": "auto (Recommended - HF picks best model)",
+      "parameters": {
+        "width": 512,
+        "height": 512,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5,
+        "negative_prompt": "blurry, low quality, pixelated, distorted, ugly, deformed, bad anatomy, extra limbs, watermark, text"
+      },
+      "image_path": "static/generated_images\\cached_20250907_123434_2e1e8d88.png",
+      "generation_time": 4.34106183052063,
+      "cached_at": "2025-09-07T12:34:34.978226",
+      "last_accessed": "2025-09-07T12:34:34.978226",
+      "access_count": 0,
+      "file_size": 404701
+    },
+    "744f9cf96bf5e2c2c11b5fc5607abf7a": {
+      "prompt": "a magical forest with glowing mushrooms, high quality, detailed, masterpiece, fantasy art, magical atmosphere, ethereal lighting",
+      "model": "Enhanced Pollinations AI (Free, Unlimited, High Quality)",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 50,
+        "guidance_scale": 20.0,
+        "negative_prompt": "blurry, low quality, pixelated, distorted, ugly, deformed, bad anatomy, extra limbs, watermark, text"
+      },
+      "image_path": "static/generated_images\\cached_20250907_123544_744f9cf9.png",
+      "generation_time": 3.263282537460327,
+      "cached_at": "2025-09-07T12:35:44.699406",
+      "last_accessed": "2025-09-07T12:35:44.699406",
+      "access_count": 0,
+      "file_size": 931091
+    },
+    "1601d742951fce53832ddc7e1480f184": {
+      "prompt": "a magical forest with glowing mushrooms, high quality, detailed, masterpiece, fantasy art, magical atmosphere, ethereal lighting, ultra detailed, resolution, award winning, fantasy art, magical atmosphere, ethereal lighting",
+      "model": "Enhanced Pollinations AI (Free, Unlimited, High Quality)",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 100,
+        "guidance_scale": 20.0,
+        "negative_prompt": "blurry, low quality, pixelated, distorted, ugly, deformed, bad anatomy, extra limbs, watermark, text"
+      },
+      "image_path": "static/generated_images\\cached_20250907_123622_1601d742.png",
+      "generation_time": 6.7686607837677,
+      "cached_at": "2025-09-07T12:36:22.050020",
+      "last_accessed": "2025-09-07T12:36:22.050020",
+      "access_count": 0,
+      "file_size": 992685
+    },
+    "496cd9489ff0189778333fc496ab5948": {
+      "prompt": "back from the future car, high quality, detailed, masterpiece, futuristic, high-tech, cinematic lighting",
+      "model": "High-Quality Dezgo (Free, 100/day, HD Mode)",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 100,
+        "guidance_scale": 7.5,
+        "negative_prompt": "blurry, low quality, pixelated, distorted, ugly, deformed, bad anatomy, extra limbs, watermark, text"
+      },
+      "image_path": "static/generated_images\\cached_20250907_123858_496cd948.png",
+      "generation_time": 7.481878280639648,
+      "cached_at": "2025-09-07T12:38:58.718530",
+      "last_accessed": "2025-09-07T12:38:58.718530",
+      "access_count": 0,
+      "file_size": 649339
+    },
+    "74350cf0400c879b31e17a5bde22871a": {
+      "prompt": "tony stark sitting on a chair, high quality, detailed, masterpiece, digital art, concept art, trending on artstation",
+      "model": "High-Quality Dezgo (Free, 100/day, HD Mode)",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 100,
+        "guidance_scale": 7.5,
+        "negative_prompt": "blurry, low quality, pixelated, distorted, ugly, deformed, bad anatomy, extra limbs, watermark, text"
+      },
+      "image_path": "static/generated_images\\cached_20250907_123935_74350cf0.png",
+      "generation_time": 7.580777883529663,
+      "cached_at": "2025-09-07T12:39:35.563661",
+      "last_accessed": "2025-09-07T12:39:35.563661",
+      "access_count": 0,
+      "file_size": 703917
+    },
+    "ac9950454e910289322e81956e1f5393": {
+      "prompt": "High-speed photography of a hummingbird in flight approaching a red hibiscus flower, wings frozen mid-beat, every feather detail visible, studio lighting setup, black background, 1/8000 shutter speed effect, high quality, detailed, masterpiece, professional photography, sharp focus, bokeh",
+      "model": "wavymulder/Analog-Diffusion",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 100,
+        "guidance_scale": 20.0,
+        "negative_prompt": "blurry, low quality, pixelated, distorted, ugly, deformed, bad anatomy, extra limbs, watermark, text"
+      },
+      "image_path": "static/generated_images\\cached_20250907_124052_ac995045.png",
+      "generation_time": 11.89972472190857,
+      "cached_at": "2025-09-07T12:40:52.667663",
+      "last_accessed": "2025-09-07T12:40:52.667663",
+      "access_count": 0,
+      "file_size": 401615
+    },
+    "9bd3021a55b7a7ea2a508e02b45bd762": {
+      "prompt": "Interior of a Gothic cathedral during blue hour, intricate stone ribbed vaulting, elaborate rose window casting colored light patterns, empty wooden pews in perfect perspective, dust motes floating in light beams, high quality, detailed, masterpiece, digital art, concept art, trending on artstation",
+      "model": "wavymulder/Analog-Diffusion",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 100,
+        "guidance_scale": 20.0,
+        "negative_prompt": "blurry, low quality, pixelated, distorted, ugly, deformed, bad anatomy, extra limbs, watermark, text"
+      },
+      "image_path": "static/generated_images\\cached_20250907_124127_9bd3021a.png",
+      "generation_time": 12.9447340965271,
+      "cached_at": "2025-09-07T12:41:27.649886",
+      "last_accessed": "2025-09-07T12:41:27.649886",
+      "access_count": 0,
+      "file_size": 845685
+    },
+    "a9a0a46111a2e9261217b79431a28ceb": {
+      "prompt": "Interior of a Gothic cathedral during blue hour, intricate stone ribbed vaulting, elaborate rose window casting colored light patterns, empty wooden pews in perfect perspective, dust motes floating in light beams, high quality, detailed, masterpiece, digital art, concept art, trending on artstation",
+      "model": "Enhanced Pollinations AI (Free, Unlimited, High Quality)",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 100,
+        "guidance_scale": 20.0,
+        "negative_prompt": "blurry, low quality, pixelated, distorted, ugly, deformed, bad anatomy, extra limbs, watermark, text"
+      },
+      "image_path": "static/generated_images\\cached_20250907_124141_a9a0a461.png",
+      "generation_time": 2.5285398960113525,
+      "cached_at": "2025-09-07T12:41:41.981564",
+      "last_accessed": "2025-09-07T12:41:41.981564",
+      "access_count": 0,
+      "file_size": 845685
+    },
+    "af7b8c555853a60dfcf4e9eb0e411f20": {
+      "prompt": "bmw m5, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 512,
+        "height": 512,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_052502_af7b8c55.png",
+      "generation_time": 3.811065196990967,
+      "cached_at": "2025-09-08T05:25:02.163711",
+      "last_accessed": "2025-09-08T05:25:02.163711",
+      "access_count": 0,
+      "file_size": 268405
+    },
+    "17b2f6b8d8f8a565ac446645e0036237": {
+      "prompt": "magical forest with glowing mushrooms, high quality, detailed, masterpiece, professional, cinematic lighting, dramatic lighting, perfect composition, award winning, trending on artstation",
+      "model": "auto",
+      "parameters": {
+        "width": 512,
+        "height": 512,
+        "num_inference_steps": 20,
+        "guidance_scale": 20.0
+      },
+      "image_path": "static/generated_images\\cached_20250908_052600_17b2f6b8.png",
+      "generation_time": 10.779188632965088,
+      "cached_at": "2025-09-08T05:26:00.863213",
+      "last_accessed": "2025-09-08T05:26:00.863213",
+      "access_count": 0,
+      "file_size": 364661
+    },
+    "874a0ea5ecde368cb8a629811c07df86": {
+      "prompt": "magical forest with glowing flies, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 3840,
+        "height": 2160,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_054931_874a0ea5.png",
+      "generation_time": 3.0305864810943604,
+      "cached_at": "2025-09-08T05:49:31.271649",
+      "last_accessed": "2025-09-08T05:49:31.271649",
+      "access_count": 0,
+      "file_size": 1683143
+    },
+    "1faead06e75a8a16dca522e1abc5df0d": {
+      "prompt": "cristiano ronaldo, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1080,
+        "height": 1920,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_055057_1faead06.png",
+      "generation_time": 2.584228515625,
+      "cached_at": "2025-09-08T05:50:57.550562",
+      "last_accessed": "2025-09-08T05:50:57.550562",
+      "access_count": 0,
+      "file_size": 1087133
+    },
+    "e03b7b75537ab4c017b8a86f6c5f0337": {
+      "prompt": "porsche gts, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1080,
+        "height": 1920,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_055121_e03b7b75.png",
+      "generation_time": 2.514763832092285,
+      "cached_at": "2025-09-08T05:51:21.353580",
+      "last_accessed": "2025-09-08T05:51:21.353580",
+      "access_count": 0,
+      "file_size": 806121
+    },
+    "737bfaa3c1a1a7abfc028e29990a1d50": {
+      "prompt": "porsche gts, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 4096,
+        "height": 4096,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_055209_737bfaa3.png",
+      "generation_time": 1.9699053764343262,
+      "cached_at": "2025-09-08T05:52:09.272054",
+      "last_accessed": "2025-09-08T05:52:09.272054",
+      "access_count": 0,
+      "file_size": 806121
+    },
+    "54749f679ddc0011ef30bfc3d2370541": {
+      "prompt": "ferrari roma, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_055403_54749f67.png",
+      "generation_time": 5.341059446334839,
+      "cached_at": "2025-09-08T05:54:03.295370",
+      "last_accessed": "2025-09-08T05:54:03.295370",
+      "access_count": 0,
+      "file_size": 441803
+    },
+    "4dee5fe819afbd02c94e68d609f146e8": {
+      "prompt": "bmw m5, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_055719_4dee5fe8.png",
+      "generation_time": 4.888052225112915,
+      "cached_at": "2025-09-08T05:57:19.066681",
+      "last_accessed": "2025-09-08T06:18:26.948191",
+      "access_count": 1,
+      "file_size": 771792
+    },
+    "4dc68404cfa936ed4f169a29449dbd35": {
+      "prompt": "ronaldo, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_055745_4dc68404.png",
+      "generation_time": 5.277301073074341,
+      "cached_at": "2025-09-08T05:57:45.614819",
+      "last_accessed": "2025-09-08T05:57:45.614819",
+      "access_count": 0,
+      "file_size": 748011
+    },
+    "731ed45682537c25118d8f7b3f10d59c": {
+      "prompt": "redbull f1 car, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_055809_731ed456.png",
+      "generation_time": 5.003079175949097,
+      "cached_at": "2025-09-08T05:58:09.137034",
+      "last_accessed": "2025-09-08T05:58:09.137034",
+      "access_count": 0,
+      "file_size": 770570
+    },
+    "ab0ebc40a39f92cec20d186dc67ab4b9": {
+      "prompt": "avengers, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_055842_ab0ebc40.png",
+      "generation_time": 5.829895973205566,
+      "cached_at": "2025-09-08T05:58:42.034628",
+      "last_accessed": "2025-09-09T00:23:25.629908",
+      "access_count": 1,
+      "file_size": 1182216
+    },
+    "c5bae363f71fbd804321cbdb2292ea97": {
+      "prompt": "robocop, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_055911_c5bae363.png",
+      "generation_time": 5.490773439407349,
+      "cached_at": "2025-09-08T05:59:11.071720",
+      "last_accessed": "2025-09-08T05:59:11.071720",
+      "access_count": 0,
+      "file_size": 1054133
+    },
+    "9629ef74ce4b16f1e79e0ce4da3512b1": {
+      "prompt": "redbull f1 car, high quality, detailed, professional, beautiful lighting",
+      "model": "stabilityai/stable-diffusion-2-1",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_060044_9629ef74.png",
+      "generation_time": 28.02273416519165,
+      "cached_at": "2025-09-08T06:00:44.274360",
+      "last_accessed": "2025-09-08T06:00:44.274360",
+      "access_count": 0,
+      "file_size": 840266
+    },
+    "20a755c85c4fbb2eeaceb2ae4d05c6fd": {
+      "prompt": "mosiac painting, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_060433_20a755c8.png",
+      "generation_time": 5.442977428436279,
+      "cached_at": "2025-09-08T06:04:33.175161",
+      "last_accessed": "2025-09-08T06:04:33.175161",
+      "access_count": 0,
+      "file_size": 2141338
+    },
+    "82dfb9793cac0f8c55e756fb538d7632": {
+      "prompt": "f1 poster, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_061842_82dfb979.png",
+      "generation_time": 4.711131572723389,
+      "cached_at": "2025-09-08T06:18:42.576711",
+      "last_accessed": "2025-09-08T06:18:42.576711",
+      "access_count": 0,
+      "file_size": 889583
+    },
+    "529f1d89c6f5e3ec18209ea03157c965": {
+      "prompt": "dsyopian society, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_061908_529f1d89.png",
+      "generation_time": 5.439122676849365,
+      "cached_at": "2025-09-08T06:19:08.888389",
+      "last_accessed": "2025-09-08T06:19:08.888389",
+      "access_count": 0,
+      "file_size": 1428490
+    },
+    "3ba581a0a0c37260e457d2ab376c480e": {
+      "prompt": "astronaut cat, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_062255_3ba581a0.png",
+      "generation_time": 2.5022358894348145,
+      "cached_at": "2025-09-08T06:22:55.693849",
+      "last_accessed": "2025-09-08T06:22:55.693849",
+      "access_count": 0,
+      "file_size": 1056673
+    },
+    "b67efb45a59ad9118e57664a65418d1f": {
+      "prompt": "cat in a suit, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_062309_b67efb45.png",
+      "generation_time": 1.8618440628051758,
+      "cached_at": "2025-09-08T06:23:09.242666",
+      "last_accessed": "2025-09-08T06:23:16.613360",
+      "access_count": 1,
+      "file_size": 1056673
+    },
+    "b7f97300eb000964d77c120952299337": {
+      "prompt": "bmw 1000 rr, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_062349_b7f97300.png",
+      "generation_time": 6.199394941329956,
+      "cached_at": "2025-09-08T06:23:49.465785",
+      "last_accessed": "2025-09-08T06:23:49.465785",
+      "access_count": 0,
+      "file_size": 787051
+    },
+    "b1555d82e5319ecd6b6c605480625fb3": {
+      "prompt": "dystopian society in a cyberpunk world, high quality, detailed, professional, beautiful lighting",
+      "model": "runwayml/stable-diffusion-v1-5",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_185640_b1555d82.png",
+      "generation_time": 35.220478773117065,
+      "cached_at": "2025-09-08T18:56:40.701946",
+      "last_accessed": "2025-09-08T18:56:40.701946",
+      "access_count": 0,
+      "file_size": 1581125
+    },
+    "b89f1bbd59c20e388f3a7a6d3e16faf9": {
+      "prompt": "dystopian society in a cyberpunk world, high quality, detailed, professional, beautiful lighting",
+      "model": "nitrosocke/Arcane-Diffusion",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_190005_b89f1bbd.png",
+      "generation_time": 17.016631603240967,
+      "cached_at": "2025-09-08T19:00:05.600994",
+      "last_accessed": "2025-09-08T19:00:05.600994",
+      "access_count": 0,
+      "file_size": 1525270
+    },
+    "523cbe9e49a8eeb7da6bd1a329186d99": {
+      "prompt": "dystopian society in a cyberpunk world, high quality, detailed, professional, beautiful lighting",
+      "model": "stabilityai/stable-diffusion-2-1",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_190312_523cbe9e.png",
+      "generation_time": 17.229800701141357,
+      "cached_at": "2025-09-08T19:03:12.925085",
+      "last_accessed": "2025-09-08T19:03:12.925085",
+      "access_count": 0,
+      "file_size": 1546593
+    },
+    "b651b70ef8893cbc7646eed721ae4e1e": {
+      "prompt": "a magical forest, high quality, detailed, professional, beautiful lighting",
+      "model": "stabilityai/stable-diffusion-3-medium-diffusers",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_191204_b651b70e.png",
+      "generation_time": 12.071011781692505,
+      "cached_at": "2025-09-08T19:12:04.675440",
+      "last_accessed": "2025-09-08T19:12:04.675440",
+      "access_count": 0,
+      "file_size": 1975826
+    },
+    "9144eb0d3b657a8b575d1816224eaaf8": {
+      "prompt": "robot, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_204744_9144eb0d.png",
+      "generation_time": 17.54801917076111,
+      "cached_at": "2025-09-08T20:47:44.357803",
+      "last_accessed": "2025-09-09T00:06:19.720988",
+      "access_count": 2,
+      "file_size": 1059513
+    },
+    "b54b252a511920bc537305c4c7ffbd30": {
+      "prompt": "magical mushroom, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250908_205002_b54b252a.png",
+      "generation_time": 5.4100165367126465,
+      "cached_at": "2025-09-08T20:50:02.266637",
+      "last_accessed": "2025-09-08T20:50:02.266637",
+      "access_count": 0,
+      "file_size": 1081486
+    },
+    "2053303ff7ec2bc0585003988d6f7f16": {
+      "prompt": "power rangers spd, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250909_000656_2053303f.png",
+      "generation_time": 9.444781303405762,
+      "cached_at": "2025-09-09T00:06:56.938262",
+      "last_accessed": "2025-09-09T00:06:56.938262",
+      "access_count": 0,
+      "file_size": 1520522
+    },
+    "6e40c7f1d3d72d3ac443d3f4bb433c42": {
+      "prompt": "spongebob, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5
+      },
+      "image_path": "static/generated_images\\cached_20250909_002347_6e40c7f1.png",
+      "generation_time": 9.214000701904297,
+      "cached_at": "2025-09-09T00:23:47.843522",
+      "last_accessed": "2025-09-09T00:23:47.843522",
+      "access_count": 0,
+      "file_size": 1835223
+    }
+  },
+  "metadata": {
+    "created": "2025-09-07T12:27:44.832755",
+    "last_cleared": "2025-09-07T12:27:44.832763",
+    "last_updated": "2025-09-09T00:23:48.203730",
+    "total_entries": 40
+  }
+}

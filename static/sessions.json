@@ -1,0 +1,169 @@
+{
+  "34a29ad6-ef4c-4fa7-910e-c5b2c046c823": {
+    "free_images_used": 2,
+    "last_activity": "2025-09-08T05:26:00.859292",
+    "api_mode": "free"
+  },
+  "6a0a11e3-44cc-4326-a1b3-71607d7ac89f": {
+    "free_images_used": 4,
+    "last_activity": "2025-09-08T05:52:09.267890",
+    "api_mode": "free"
+  },
+  "6a8f4fe7-2f73-4ddf-bdf2-c5ed113a5635": {
+    "free_images_used": 1,
+    "last_activity": "2025-09-08T05:54:03.293387",
+    "api_mode": "free"
+  },
+  "86a9d92c-df5d-4c41-bd37-964bde7bdd26": {
+    "free_images_used": 5,
+    "last_activity": "2025-09-08T05:59:52.566314",
+    "api_mode": "premium"
+  },
+  "f170c4d00eb3b0a2": {
+    "free_images_used": 1,
+    "api_mode": "free",
+    "huggingface_api_key": "",
+    "last_activity": "2025-09-08T06:04:46.798737",
+    "refresh_count": 1
+  },
+  "f170c4d00f343d76": {
+    "free_images_used": 0,
+    "api_mode": "free",
+    "huggingface_api_key": "",
+    "last_activity": "2025-09-08T06:13:53.252231",
+    "refresh_count": 10
+  },
+  "f170c4d019d0e5ce": {
+    "free_images_used": 0,
+    "api_mode": "free",
+    "huggingface_api_key": "",
+    "last_activity": "2025-09-08T06:14:32.094090",
+    "refresh_count": 2
+  },
+  "f170c4d03edaf876": {
+    "free_images_used": 2,
+    "api_mode": "free",
+    "huggingface_api_key": "",
+    "last_activity": "2025-09-08T06:19:08.885555",
+    "refresh_count": 2
+  },
+  "f170c4d0f4af6ad7": {
+    "free_images_used": 2,
+    "api_mode": "free",
+    "huggingface_api_key": "",
+    "last_activity": "2025-09-08T06:23:16.595571",
+    "refresh_count": 2
+  },
+  "f170c4d087b774bb": {
+    "free_images_used": 1,
+    "api_mode": "free",
+    "huggingface_api_key": "",
+    "last_activity": "2025-09-08T06:23:58.678012",
+    "refresh_count": 1
+  },
+  "f170c4d0394f5f66": {
+    "free_images_used": 0,
+    "api_mode": "free",
+    "huggingface_api_key": "",
+    "last_activity": "2025-09-08T06:24:03.734654",
+    "refresh_count": 1
+  },
+  "f170c4d09482cc2f": {
+    "free_images_used": 0,
+    "api_mode": "free",
+    "huggingface_api_key": "",
+    "last_activity": "2025-09-08T18:24:55.813726",
+    "refresh_count": 1
+  },
+  "f170c4d010ded3c2": {
+    "free_images_used": 0,
+    "api_mode": "premium",
+    "huggingface_api_key": "stabilityai/stable-diffusion-3.5-large-tensorrt",
+    "last_activity": "2025-09-08T18:45:13.577736",
+    "refresh_count": 5
+  },
+  "f170c4d0cc10eaa3": {
+    "free_images_used": 0,
+    "api_mode": "premium",
+    "huggingface_api_key": "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",
+    "last_activity": "2025-09-08T18:45:46.740396",
+    "refresh_count": 3
+  },
+  "f170c4d08e9f83ed": {
+    "free_images_used": 0,
+    "api_mode": "premium",
+    "huggingface_api_key": "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",
+    "last_activity": "2025-09-08T18:46:05.275173",
+    "refresh_count": 7
+  },
+  "f170c4d0528b1b67": {
+    "free_images_used": 0,
+    "api_mode": "premium",
+    "huggingface_api_key": "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",
+    "last_activity": "2025-09-08T19:02:55.671369",
+    "refresh_count": 2
+  },
+  "f170c4d0f73fbf77": {
+    "free_images_used": 0,
+    "api_mode": "premium",
+    "huggingface_api_key": "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",
+    "last_activity": "2025-09-08T19:11:52.566221",
+    "refresh_count": 2
+  },
+  "f170c4d0e4d042eb": {
+    "free_images_used": 0,
+    "api_mode": "free",
+    "huggingface_api_key": "",
+    "last_activity": "2025-09-08T19:13:32.355689",
+    "refresh_count": 1
+  },
+  "f170c4d0856b010a": {
+    "free_images_used": 0,
+    "api_mode": "free",
+    "huggingface_api_key": "",
+    "last_activity": "2025-09-08T19:17:48.830253",
+    "refresh_count": 2
+  },
+  "f170c4d049a62361": {
+    "free_images_used": 0,
+    "api_mode": "free",
+    "huggingface_api_key": "",
+    "last_activity": "2025-09-08T20:46:12.986856",
+    "refresh_count": 1
+  },
+  "f170c4d0e75e98cd": {
+    "free_images_used": 1,
+    "api_mode": "free",
+    "huggingface_api_key": "",
+    "last_activity": "2025-09-08T20:50:02.262354",
+    "refresh_count": 2
+  },
+  "f170c4d0a9e2f52a": {
+    "free_images_used": 0,
+    "api_mode": "free",
+    "huggingface_api_key": "",
+    "last_activity": "2025-09-08T20:46:44.793007",
+    "refresh_count": 1
+  },
+  "af57d7699a7eaf97": {
+    "free_images_used": 0,
+    "api_mode": "premium",
+    "huggingface_api_key": "f_SwdBoCHFTryiYJMNtbVoPYDTfuJKHjxGKI",
+    "last_activity": "2025-09-09T00:02:04.346511",
+    "refresh_count": 2
+  },
+  "af57d7699c191e27": {
+    "free_images_used": 0,
+    "api_mode": "premium",
+    "huggingface_api_key": "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",
+    "last_activity": "2025-09-09T00:06:47.365047",
+    "refresh_count": 2
+  },
+  "af57d7698ca6fa56": {
+    "free_images_used": 0,
+    "api_mode": "premium",
+    "huggingface_api_key": "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",
+    "last_activity": "2025-09-09T00:23:58.373070",
+    "refresh_count": 1
+  }
+}

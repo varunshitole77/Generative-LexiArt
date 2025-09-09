@@ -1,0 +1,29 @@
+# Core dependencies
+streamlit>=1.28.0
+Pillow>=9.5.0
+requests>=2.31.0
+
+# Image generation dependencies
+huggingface-hub>=0.17.0
+diffusers>=0.21.0
+transformers>=4.33.0
+accelerate>=0.22.0
+safetensors>=0.3.2
+
+# PyTorch (CPU version for Streamlit Cloud)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Optional: For local generation (if you want to support it)
+# Note: These may not work well on Streamlit Cloud due to memory limits
+# diffusers
+# torch
+# torchvision
+
+# Utility dependencies
+numpy>=1.24.0
+urllib3>=2.0.0
+
+# Optional: For enhanced functionality
+# openai>=0.28.0  # If you want to add OpenAI integration
+# anthropic>=0.3.0  # If you want to add Claude integration

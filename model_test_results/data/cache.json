@@ -1,0 +1,43 @@
+{
+  "entries": {
+    "3739639ad53d3dba9ea02058e4d20772": {
+      "prompt": "darth vader, high quality, detailed, professional, beautiful lighting",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 25,
+        "guidance_scale": 7.5,
+        "negative_prompt": "blurry, low quality, pixelated, distorted, ugly, deformed, bad anatomy, extra limbs, watermark, text, signature, username, error, cropped, worst quality, jpeg artifacts, duplicate, morbid, mutilated, photograph, photo, realistic, camera"
+      },
+      "image_path": "generated_images\\cached_20250907_142056_3739639a.png",
+      "generation_time": 26.30421018600464,
+      "cached_at": "2025-09-07T14:20:56.822419",
+      "last_accessed": "2025-09-07T14:20:56.822419",
+      "access_count": 0,
+      "file_size": 835572
+    },
+    "471ada9621009946d9435623eb80d26e": {
+      "prompt": "cyberpunk 2077, high quality, detailed, masterpiece, professional, cinematic lighting, dramatic lighting, perfect composition, award winning, trending on artstation",
+      "model": "auto",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 50,
+        "guidance_scale": 7.5,
+        "negative_prompt": "blurry, low quality, pixelated, distorted, ugly, deformed, bad anatomy, extra limbs, watermark, text, signature, username, error, cropped, worst quality, jpeg artifacts, duplicate, morbid, mutilated, medieval, ancient, primitive, natural"
+      },
+      "image_path": "generated_images\\cached_20250907_142418_471ada96.png",
+      "generation_time": 18.294357538223267,
+      "cached_at": "2025-09-07T14:24:18.115071",
+      "last_accessed": "2025-09-07T14:24:18.115071",
+      "access_count": 0,
+      "file_size": 1240299
+    }
+  },
+  "metadata": {
+    "created": "2025-09-07T14:20:22.269466",
+    "last_updated": "2025-09-07T14:24:20.596459",
+    "total_entries": 2
+  }
+}
