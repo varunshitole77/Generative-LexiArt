@@ -1,8 +1,3 @@
-"""
-FIXED Session Manager for Freemium Image Generation
-Properly handles user sessions, usage tracking, and prevents refresh abuse
-"""
-
 import streamlit as st
 import json
 import os
